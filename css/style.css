@@ -1,0 +1,191 @@
+body {
+    background-color: #09090B;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #09090B;
+    color: white;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid #9fa6bc67;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header img {
+    height: 25px;
+}
+
+.menu-phone {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    row-gap: 12px;
+    background-color: #09090bea;
+    padding: 15px;
+}
+
+.menu-phone li {
+    display: flex;
+    align-items: center;
+    width: 92vw;
+    padding: 5px;
+    border-radius: 2px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.menu-phone li:hover {
+    background-color: rgba(128, 128, 128, 0.212);
+}
+
+.menu-pc {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-pc li{
+    font-weight: bold;
+}
+
+.menu-hamburguer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    cursor: pointer;
+}
+
+.menu-hamburguer .slices {
+    background-color: white;
+    height: 2.5px;
+    width: 25px;
+    border-radius: 2px;
+}
+
+footer {
+    background-color: #09090B;
+    color: #9FA6BC;
+    font-size: 10px;
+    border-top: 0.5px solid #9fa6bc67;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+}
+
+/* No seu style.css, adicione esta regra: */
+.menu-phone.active {
+    display: flex; /* Isso fará o menu aparecer quando a classe for injetada */
+}
+
+section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: left;
+    padding-left: 5vw;
+}
+
+#container-home{
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+    h1{
+        color: white;
+        font-size: 54px;
+        font-weight: bold;
+    }
+
+    h2{
+        color: #9F9FA9;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    p{
+        max-width: 550px;
+        color: #c0c0c4;
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+#container-buttons-home{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 15px;
+    
+
+    #btn-saw-projects{
+        height: 50px;
+        width: 130px;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+
+    #btn-get-in-touch{
+        height: 44px;
+        width: 120px;
+        color: white;
+        background-color: black;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+
+    #btn-saw-projects:hover {
+        background-color: #c5c5c5;
+    }
+
+    #btn-get-in-touch:hover{
+        background-color: #69696b50;
+    }
+}
+
+#conteiner-icons-home{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+@media (min-width: 1080px) {
+    .menu-phone {
+        display: none;
+    }
+
+    .menu-pc {
+        display: flex;
+        gap: 50px;
+    }
+
+    .menu-hamburguer {
+        display: none;
+    }
+
+    section{
+        padding-left: 20vw;
+    }
+}
