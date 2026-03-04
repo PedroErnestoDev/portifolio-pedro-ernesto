@@ -17,8 +17,8 @@ function initMenu() {
 }
 
 async function initApp() {
-    await loadComponent("header", "/components/header.html");
-    await loadComponent("footer", "/components/footer.html");
+    await loadComponent("header", "components/header.html");
+    await loadComponent("footer", "components/footer.html");
 
     const yearSpan = document.querySelector('[data-year]');
     if (yearSpan) {
