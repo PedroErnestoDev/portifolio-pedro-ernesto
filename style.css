@@ -310,9 +310,18 @@ main{
     border-radius: 5px;
     
     .img-card{
-        height: 230px;
+        height: 250px;
         width: 100%;
         border-radius: 5px 5px 0px 0px;
+    }
+
+    .container-paragrafo{
+        height: 150px;
+    }
+
+    .container-paragrafo p{
+            font-size: 14px;
+        }
     }
 
     .container-dados-card{
@@ -330,7 +339,7 @@ main{
         row-gap: 10px;
 
         h3{
-            font-size: 18px;
+            font-size: 22px;
             align-self: flex-start;
             text-align: left;
             width: 100%;
@@ -345,7 +354,7 @@ main{
             flex-direction: row;
             width: 100%;
             column-gap: 10px;
-            margin-top: 30px;
+            margin-top: 60px;
 
             .langs{
                 height: 20px;
@@ -369,14 +378,9 @@ main{
             }
         }
     }
-}
 
 .card-projects:hover{
     border-color: white;
-}
-
-.container-paragrafo{
-    height: 130px;
 }
 
 #skills {
