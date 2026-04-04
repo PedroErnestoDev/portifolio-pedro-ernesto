@@ -58,7 +58,6 @@ fetch("https://api.github.com/users/PedroErnestoDev/repos")
 
         repoElement.innerHTML = `
             <h3><img src="assets/github.png" alt="">${repo.name}</h3>
-            <a href="${repo.html_url}" target="_blank">Ver projeto</a>
             <div class="container-dados">
                 <span>${repo.language}</span>
             </div>
@@ -84,3 +83,4 @@ function escrever() {
 }
 
 escrever();
+

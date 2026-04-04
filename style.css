@@ -152,29 +152,25 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    row-gap: 30px;
+    row-gap: 20px;
     column-gap: 20px;
     padding: 10px 10px;
 }
 
 .repo-card{
-    border-radius: 5px;
+    border-radius: 3px;
     display: flex;
     flex-direction: column;
-    width: 473px;
     border: 1px solid rgb(87, 87, 87);
-    padding: 20px;
+    padding: 10px;
     height: auto;
+    max-height: 100px;
     cursor: pointer;
     transition: 0.2s;
-    font-size: 14px;
-    
-    a{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-decoration: none;
-        color: white;
-    }
+    font-size: 12px;
+    row-gap: 10px;
+    max-width: 450px;
+    width: 100%;
 
     img{
         height: 15px;
@@ -312,7 +308,7 @@ main{
     .img-card{
         height: 250px;
         width: 100%;
-        border-radius: 5px 5px 0px 0px;
+        border-radius: 3.5px 3.5px 0px 0px;
     }
 
     .container-paragrafo{
