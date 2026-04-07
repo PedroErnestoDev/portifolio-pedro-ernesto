@@ -2,6 +2,8 @@
 
 Bem-vindo ao meu portfólio! Aqui você encontrará meus projetos, experiências profissionais, formações e informações de contato.
 
+Clique aqui para ver o meu meu **[Portifolio Web](https://pedroernestodev.github.io/portifolio-pedro-ernesto/)**
+
 ---
 
 ## 🔹 Sobre Mim
@@ -32,9 +34,6 @@ Alguns dos meus trabalhos recentes:
 
 - **Desenvolvedor Full-Stack Freelance (Fev 2023 – Atualmente)**  
   - Desenvolvimento de aplicações web com React, Node.js e integração de APIs.  
-
-- **Garçom Freelance (Dez 2025 – Atualmente)**  
-  - Atendimento ao cliente, organização e resolução de problemas sob pressão.  
 
 - **Técnico em Informática Freelance (Desde 2025)**  
   - Suporte técnico, manutenção de computadores e desenvolvimento de scripts.
